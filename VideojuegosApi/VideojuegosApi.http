@@ -1,0 +1,30 @@
+@host = https://localhost:7068
+
+### 1. INSERT: crear un videojuego
+POST {{host}}/api/videojuegos
+Content-Type: application/json
+
+{
+  "nombre": "Minecraft Sandbox",
+  "genero": "Aventura",
+  "anio": 2011,
+  "completado": false
+}
+
+### 2. SELECT: ver todos los videojuegos
+GET {{host}}/api/videojuegos
+
+### 3. SELECT: ver uno por Id
+GET {{host}}/api/videojuegos/1
+
+### 4. UPDATE: marcar el Id 1 como completado
+PUT {{host}}/api/videojuegos/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nombre": "Minecraft Sandbox",
+  "genero": "Aventura",
+  "anio": 2011,
+  "completado": true
+}

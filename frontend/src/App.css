@@ -1,0 +1,37 @@
+.contenedor {
+    max-width: 700px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.formulario {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+    .formulario input {
+        padding: 8px;
+        flex: 1;
+    }
+
+button {
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 8px;
+    text-align: left;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
