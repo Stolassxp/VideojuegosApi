@@ -28,6 +28,15 @@ Web API en C# (.NET 10) con controladores y Entity Framework Core (SQLite) que p
 3. Ejecutar `Update-Database` en la Consola del administrador de paquetes.
 4. Presionar F5 y probar con el archivo `VideojuegosApi.http`.
 
+   ## Frontend (desafío extra)
+
+Hecho con React + Vite, dentro de la carpeta `frontend`.
+
+1. Abrir una terminal en la carpeta `frontend`.
+2. Ejecutar `npm install`.
+3. Ejecutar `npm run dev`.
+4. Abrir `http://localhost:5173` (la API debe estar corriendo en `https://localhost:7068`).
+
 ## Nombre
 
 [Hanz Alexander Chanchavac Gonzalez]
